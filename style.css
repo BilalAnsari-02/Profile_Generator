@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.header{
+    margin-bottom: 20px;
+    padding-top: 15vh;
+    text-align: center;
+    height: 30vh;
+    color:white;
+    background-image:  linear-gradient(to right, #ac44cfff, #900fbbff , #5e0b84ff);
+
+}
+.profile{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:60px;
+    margin-right:60px;
+
+
+
+}
+.card{
+    height:300px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin : 10px;
+    background-image:  linear-gradient(to right, #6e417dff, #7c229ab4 , #5e0b84ff);
+
+
+}
+img{
+    width:150px;
+    border-radius: 50%;
+}
+p{
+    color:white;
+    font-size: 18px;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 90px;
+    
+    
+}
+input{
+    width: 280px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+button{
+    width: 100px;
+    height: 47px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ac44cfff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+  background-color: #5e0b84ff;
+  
+}
